@@ -36,7 +36,7 @@ msgContainer.classList.add("hide");
 
 boxes.forEach((box)=>{
     box.addEventListener("click", ()=>{
-        // console.log("box was clicked");
+    
         if(turnO){
             box.innerText = "0"
             turnO = false;
